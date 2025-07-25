@@ -1,15 +1,14 @@
-# .NETÀ¸·Î °£´ÜÇÑ Laftel ±â¹Ý MCP ¼­¹ö ¸¸µé±â
 
-## ÁØºñ¹°
+## ì¤€ë¹„ë¬¼
 
-- .NET SDK 9.0 ÀÌ»ó
+- .NET SDK 9.0 ì´ìƒ
 
-1. ´ÙÀ½ ¸í·É¾î¸¦ ÀÔ·ÂÇÏ¿© ÅÛÇÃ¸´À» ¼³Ä¡ÇÕ´Ï´Ù.
+1. ë‹¤ìŒ ëª…ë ¹ì–´ë¥¼ ìž…ë ¥í•˜ì—¬ í…œí”Œë¦¿ì„ ì„¤ì¹˜í•©ë‹ˆë‹¤.
 	```sh
 	dotnet new install Microsoft.Extensions.AI.Templates
 	```
-1. ÀÌÈÄ `dotnet new mcp` ¸í·É¾î·Î MCP ¼­¹ö¸¦ »ý¼ºÇÒ ¼ö ÀÖ½À´Ï´Ù.
+1. ì´í›„ `dotnet new mcp` ëª…ë ¹ì–´ë¡œ MCP ì„œë²„ë¥¼ ìƒì„±í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 	```sh
 	dotnet new mcpserver -n LaftelMcpServer
 	```
-1. [Laftel.http](./Laftel.http) ÆÄÀÏÀ» ÀÌ¿ëÇØ API¸¦ Å×½ºÆ®ÇÏ°í ÇÊ¿äÇÑ ±¸Á¶¸¦ Á¤ÀÇÇÕ´Ï´Ù.
+1. [Laftel.http](./Laftel.http) íŒŒì¼ì„ ì´ìš©í•´ APIë¥¼ í…ŒìŠ¤íŠ¸í•˜ê³  í•„ìš”í•œ êµ¬ì¡°ë¥¼ ì •ì˜í•©ë‹ˆë‹¤.
