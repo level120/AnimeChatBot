@@ -1,0 +1,13 @@
+# Laftel API Documentation
+
+### Daily
+
+GET https://api.laftel.net/api/search/v2/daily/
+
+### Ranking
+
+GET https://api.laftel.net/api/home/v1/recommend/ranking/?type=4hour
+
+### Search
+
+GET https://api.laftel.net/api/search/v3/keyword/?keyword=%ED%95%99%EA%B5%90&viewing_only=true&offset=0&size=5
